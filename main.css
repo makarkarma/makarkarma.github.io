@@ -1,0 +1,65 @@
+/* Comment */
+h1{color: blue;}
+            
+@font-face{
+    font-family: MySpecialFont;
+    src: url('Kurale-Regular.ttf')
+            }  
+h1,h2,h3,h4,h5 {
+    font-family: MySpecialFont;          
+                 }
+h1 {line-height: 120%; 
+    background:#FFB908} 
+h2 {line-height: 250%; 
+    background:#1691D9} 
+h4 {text-align: right}
+
+body {
+  display:flex; flex-direction:column; justify-content:center;
+display: table;
+  min-height:100vh;
+}      
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table;
+    vertical-align: middle;
+}
+
+body {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #111111;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 2em 2em 4em;
+}
+
+img {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 95%;
+}
+
+div {
+    width:30%;
+    background: #916043;
+    display: table-cell
+}
+
+
